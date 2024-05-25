@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0F0F0F"/>
+    <meta name="theme-color" content="#0F0F0F">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Stats • Current Matters</title>
@@ -54,7 +54,7 @@
         </div>
     </div>
     </aside>
-    <section id="container-stats">
+    <main id="container-stats">
     <header>
         <div class="container-header">
     <div class="container-title">
@@ -63,14 +63,14 @@
 </div>
 <nav>
     <ul class="container-navbar">
-        <li><button class="btn-nav btn-active"><a href="index.html">Stats</a></button></li>
-        <li><button class="btn-nav"><a href="latest.html">Latest</a></button></li>
-        <li><button class="btn-nav"><a href="about.html">About</a></button></li>
+        <li><a href="index.html" class="btn-nav btn-active">Stats</a></li>
+        <li><a href="latest.html" class="btn-nav">Latest</a></li>
+        <li><a href="about.html" class="btn-nav">About</a></li>
     </ul>
-</div>
 </nav>
+</div>
     </header>
-    <main>
+    <section>
         <div class="section-padding-800">
             <div class="container-visualization">
                 <div class="text-content">
@@ -111,9 +111,8 @@
                 </div>
           </div>
           <div class="background-gradient"></div>
-        </div>
-    </main>
-</section>
+    </section>
+</main>
 <script src="js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
