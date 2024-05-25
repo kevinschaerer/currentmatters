@@ -199,7 +199,6 @@
         border-radius: 0.5rem;
         padding: 2rem 2rem 1.5rem 2rem;
         height: 556px;
-        width: 1fr;
     }
 
     .article-image {
@@ -503,7 +502,6 @@
 
       .container-visualization {
         width: 100%;
-        display: static;
         justify-content: center;
       }
 
