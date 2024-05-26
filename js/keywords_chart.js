@@ -47,7 +47,7 @@ export async function keywordsChart() {
   
     dataArray.forEach((data, index) => {
         const label = labels[index];
-        console.log(`Data for ${label}:`, data);
+        // console.log(`Data for ${label}:`, data);
   
         data.forEach(entry => {
             const words = entry.des_facet.match(/\b\w+(?:\s+\w+)*\b/g);
@@ -84,7 +84,7 @@ export async function keywordsChart() {
       const sections = topSections.map(entry => capitalizeWords(entry.section));
       const sectionCounts = topSections.map(entry => entry.data);
   
-      console.log('sections', sections);
+    //   console.log('sections', sections);
   
       chart.data.labels = labels;
       chart.data.datasets = sections.map((section, index) => ({

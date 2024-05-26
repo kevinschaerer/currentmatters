@@ -2,7 +2,7 @@
 let startscreen = document.querySelector('#container-startscreen');
 let flag = sessionStorage.getItem('visited');
 
-console.log(startscreen);
+// console.log(startscreen);
 
 // Function to toggle start screen visibility
 function toggleStartScreen() {
@@ -14,4 +14,6 @@ function toggleStartScreen() {
 }
 
 // Call the function to toggle start screen visibility
+if (startscreen) {
 toggleStartScreen();
+}

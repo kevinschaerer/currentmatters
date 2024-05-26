@@ -36,7 +36,7 @@ function processData(todayData, yesterdayData, twoDaysAgoData, threeDaysAgoData,
 
   [todayData, yesterdayData, twoDaysAgoData, threeDaysAgoData, fourDaysAgoData, fiveDaysAgoData, sixDaysAgoData].forEach((data, index) => {
     const label = daysLabels[index];
-    console.log(`Data for ${label}:`, data);
+    // console.log(`Data for ${label}:`, data);
 
     data.forEach(entry => {
       if (!combinedData[entry.section]) {

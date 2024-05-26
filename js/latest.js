@@ -14,7 +14,7 @@ fetch(apiUrl)
     })
     .then(metadata => {
         // Process the retrieved data
-        console.log('New York Times:', metadata);
+        // console.log('New York Times:', metadata);
 
         // Sort articles by date
         metadata.sort((a, b) => {
@@ -77,4 +77,4 @@ fetch(apiUrl)
 if (window.location.href === 'https://616867-9.web.fhgr.ch/latest.html') {
     sessionStorage.setItem('visited', 'true');
 }
-console.log('visited:', sessionStorage.getItem('visited'));
+// console.log('visited:', sessionStorage.getItem('visited'));
