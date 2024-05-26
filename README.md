@@ -4,7 +4,7 @@ Mit über zehn Millionen Abonnenten ist die «New York Times» eine der erfolgre
 
 Um ein tieferes Verständnis dafür zu gewinnen, welche Themen momentan die Welt beschäftigen, erstellten wir mithilfe der [Times Wire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) einen News-Liveticker sowie verschiedene Datenvisualisierungen.
 
-Mithilfe einer Auswertung der beliebtesten Keywords und veröffentlichten Artikel pro Kategorie versuchten wir, die aktuellen Trends ausfindig zu machen. Ausserdem ist dank einer weiteren Datenvisualisierung ersichtlich, welche Tage besonders ereignisreich waren.
+Mithilfe einer Auswertung der beliebtesten Keywords und veröffentlichten Artikel pro Kategorie versuchten wir, die aktuellen Trends ausfindig zu machen. Ausserdem ist dank einer weiteren Datenvisualisierung ersichtlich, welche Tage besonders ereignisreich waren, anhand der Anzahl veröffentlichter Artikel.
 
 &ensp;  
 
