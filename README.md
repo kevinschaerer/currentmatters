@@ -2,7 +2,7 @@
 
 Mit über zehn Millionen Abonnenten ist die «New York Times» eine der erfolgreichsten Digitalzeitungen der Welt. Die rund tausendsiebenhundert Journalist:innen schreiben jährlich über vierzigtausend Artikel zu den Themen, die uns bewegen.
 
-Um ein tieferes Verständnis dafür zu gewinnen, welche Themen momentan die Welt beschäftigen, erstellten wir mithilfe der Times Wire API einen News-Liveticker sowie verschiedene Datenvisualisierungen.
+Um ein tieferes Verständnis dafür zu gewinnen, welche Themen momentan die Welt beschäftigen, erstellten wir mithilfe der [Times Wire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) einen News-Liveticker sowie verschiedene Datenvisualisierungen.
 
 Mithilfe einer Auswertung der beliebtesten Keywords und veröffentlichten Artikel pro Kategorie versuchten wir, die aktuellen Trends ausfindig zu machen. Ausserdem ist dank einer weiteren Datenvisualisierung ersichtlich, welche Tage besonders ereignisreich waren.
 
@@ -43,14 +43,14 @@ Mithilfe einer Auswertung der beliebtesten Keywords und veröffentlichten Artike
 <br />
 
 **API**
-* Times Wire API für die Umsetzung der Datenvisualisierungen und dem News-Liveticker
+* [Times Wire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) für die Umsetzung der Datenvisualisierungen und dem News-Liveticker
 
 <br />
 
 **Libraries**
-* Chart.js für die Visualisierung unserer Daten
-* Anime.js, um Elemente unserer Startseite zu animieren
-* Moment.js, um die Zeit im News-Liveticker in vergangenen Minuten und Stunden anzuzeigen
+* [Chart.js](https://www.chartjs.org) für die Visualisierung unserer Daten
+* [Anime.js](https://animejs.com), um Elemente unserer Startseite zu animieren
+* [Moment.js](https://momentjs.com), um die Zeit im News-Liveticker in vergangenen Minuten und Stunden anzuzeigen
 
 <br />
 
