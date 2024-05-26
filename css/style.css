@@ -427,6 +427,10 @@
 
 
     /* About */
+    .container-about {
+      font-size: var(--fs-20);
+    }
+
     .container-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -587,6 +591,10 @@
 
     #graphic-startscreen {
       margin-top: -5%;
+    }
+
+    .container-about {
+      padding-bottom: 4rem;
     }
   }
 
